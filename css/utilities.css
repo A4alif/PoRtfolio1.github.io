@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+}
+.items_center {
+    align-items: center;
+}
+.justify_between {
+    justify-content: space-between;
+}
+.btn {
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn_primary {
+    background-color: var(--primary);
+    color: var(--dark);
+    transition: all .3s ease-in-out;
+}
+.btn_primary:hover {
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn_secondary {
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--pure);
+    transition: all .3s ease-in-out;
+}
+.btn_secondary:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
+.flex-1 {
+    flex:1;
+}
+.justify_center {
+    justify-content: center;
+}
+section {
+    padding: 6rem 0;
+}
